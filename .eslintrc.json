@@ -24,10 +24,12 @@
     "class-methods-use-this": "off",
     "@typescript-eslint/camelcase": "off",
     "no-useless-constructor": "off",
+    "no-console": "off",
+    "no-undef": "off",
     "import/prefer-default-export": "off",
     "@typescript-eslint/no-var-requires": "off",
     "@typescript-eslint/no-unused-vars": [
-      "error",
+      "warn",
       {
         "argsIgnorePattern": "_"
       }
